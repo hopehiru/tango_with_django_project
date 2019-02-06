@@ -1,12 +1,12 @@
 {% extends 'rango/base.html' %}
 {% load staticfiles %}
 {% block title_block %}
-		Add Category
+    Add Category
 {% endblock %}
     {% block body_block %}
 	<div>
             <h1>Add a Category</h1>
-	    <form role="form" id="category_form" method="post" action="{% url 'add_category' %}">
+	    <form id="category_form" method="post" action="{% url 'add_category' %}">
 	    {% csrf_token %}
 	    {% for hidden in form.hidden_fields %}
                 {{ hidden }}

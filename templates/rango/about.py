@@ -14,7 +14,8 @@
     <strong>{{ boldmessage }}</strong><br />
     </div>
     <div>
-    <a href="/rango/index/">Index</a><br /> <img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" /> <!-- New line -->
+        <a href="/rango/index/">Index</a><br />
+        <img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" /> 
     </div>
     <div>
     This tutorial has been put together by Hope
