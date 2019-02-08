@@ -25,6 +25,9 @@ MEDIA_URL = '/media/'
 
 LOGIN_URL = '/rango/login/'
 
+#browser-length sessions expire when the user closes his or her browser
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 

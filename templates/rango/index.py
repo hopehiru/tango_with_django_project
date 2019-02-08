@@ -1,5 +1,6 @@
 {% extends 'rango/base.html' %}
 {% load staticfiles %}
+
 {% block title_block %}
     Index
 {% endblock %}
@@ -46,7 +47,13 @@
 {% else %}
     <strong>There are no categories present.</strong>
 {% endif %}
+
 </div>
 
-<img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" /> 
+<img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" />
+
+<div>
+    <p>visits: {{ visits }}</p>
+</div>
+
 {% endblock %}
